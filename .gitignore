@@ -1,0 +1,75 @@
+# ============================
+# OS & Editor Files
+# ============================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+env/
+venv/
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ============================
+# Data (don’t commit raw data)
+# ============================
+data/raw/*
+data/processed/*
+data/sql_import/*
+
+# But keep folder structure
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/sql_import/.gitkeep
+
+# ============================
+# SQL Dumps
+# ============================
+*.sql
+*.dump
+
+# ============================
+# Reports / Figures
+# ============================
+reports/figures/*
+*.pdf
+
+# ============================
+# BI Tools
+# ============================
+*.pbix       # Power BI
+*.twbx       # Tableau packaged workbook
+
+# ============================
+# Environment / Config
+# ============================
+.env
+*.ini
+*.yaml
+*.yml
+
+# ============================
+# VSCode / IDE
+# ============================
+.vscode/
+.idea/
